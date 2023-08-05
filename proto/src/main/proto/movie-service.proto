@@ -5,7 +5,6 @@ import "common/common.proto";
 option java_multiple_files = true;
 option java_package = "com.kkty39.grpcflix.movie";
 
-
 message MovieDto {
   string title = 1;
   int32 year = 2;
